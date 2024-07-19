@@ -4,18 +4,12 @@ By [Rachana Vishwanathula](https://developer.ibm.com/profiles/rachvis1), Preethi
 24 May 2024  
 
 ---
-If you're a developer, or if you're operating a business, you know that data privacy and protection
-for [generative AI](https://www.ibm.com/topics/generative-ai?utm_source=ibm_developer&utm_content=in_content_link&utm_id=articles_awb-data-privacy-security-watsonx-workloads-ibm-cloud&cm_sp=ibmdev-_-developer-articles-_-ibmcom) solutions are non\-negotiable. [IBM watsonx on IBM Cloud](https://www.ibm.com/watsonx?utm_source=ibm_developer&utm_content=in_content_link&utm_id=articles_awb-data-privacy-security-watsonx-workloads-ibm-cloud&cm_sp=ibmdev-_-developer-articles-_-ibmcom), an AI and data platform for
-business, has multi\-level security for every aspect of your IT: datacenter,
-infrastructure, network, cloud, storage, data at rest and transit, and AI
-models. It also meets multiple compliance requirements and provides numerous
-ways to secure different types of data on the cloud.
+If you're a developer, or if you're operating a business, you know that data privacy and protection for [generative AI](https://www.ibm.com/topics/generative-ai?utm_source=ibm_developer&utm_content=in_content_link&utm_id=articles_awb-data-privacy-security-watsonx-workloads-ibm-cloud&cm_sp=ibmdev-_-developer-articles-_-ibmcom) solutions are non\-negotiable. [IBM watsonx on IBM Cloud](https://www.ibm.com/watsonx?utm_source=ibm_developer&utm_content=in_content_link&utm_id=articles_awb-data-privacy-security-watsonx-workloads-ibm-cloud&cm_sp=ibmdev-_-developer-articles-_-ibmcom), an AI and data platform for business, has multi\-level security for every aspect of your IT: datacenter,
+infrastructure, network, cloud, storage, data at rest and transit, and AI models. It also meets multiple compliance requirements and provides numerous ways to secure different types of data on the cloud.
 
 
 Every AI developer and architect working on generative AI solutions has to implement security
-measures. The bottom line? You need a trusted partner to help you thwart
-malicious actors. Read on to learn more about the strict security measures
-available on IBM Cloud and watsonx. You'll learn:
+measures. The bottom line? You need a trusted partner to help you thwart malicious actors. Read on to learn more about the strict security measures available on IBM Cloud and watsonx. You'll learn:
 
 
 * How IBM secures the services in  its data centers and the measures we follow to protect customer data
@@ -26,27 +20,20 @@ available on IBM Cloud and watsonx. You'll learn:
 
 ## Governmental security requirements
 
-
 Governments are rapidly increasing security requirements around data privacy and protection. For
 example, in August 2023, India's Parliament passed the [Digital Personal Data Protection (DPDP) Act, 2023](https://en.wikipedia.org/wiki/Digital_Personal_Data_Protection_Act,_2023?utm_source=ibm_developer&utm_content=in_content_link&utm_id=articles_awb-data-privacy-security-watsonx-workloads-ibm-cloud), the first cross\-sectoral law on personal data protection in that country's history.
 
 
-Following are some of the key points from the legislation that organizations must pay particular
-attention to:
+Following are some of the key points from the legislation that organizations must pay particular attention to:
 
 
 * The law allows cross\-border
- transfer of data, with restrictions on certain countries, per a list
- provided by the central government. This "negative list" of
+ transfer of data, with restrictions on certain countries, per a list  provided by the central government. This "negative list" of
  countries has yet to be communicated.
-* Data processing includes
- collection, storage, use, sharing, erasure and destruction of
- "personal data" in digital form, or in non\-digital form that is
+* Data processing includes  collection, storage, use, sharing, erasure and destruction of  "personal data" in digital form, or in non\-digital form that is
  subsequently digitized.
-* If there is a higher degree of
- restriction on transfer of personal data outside India in any other law,
- then those restrictions must be followed. Accordingly, sectoral laws (like
- the Reserve Bank of India’s localization mandate for payment system data)
+* If there is a higher degree of restriction on transfer of personal data outside India in any other law,
+ then those restrictions must be followed. Accordingly, sectoral laws (like the Reserve Bank of India’s localization mandate for payment system data)
  will continue to be applicable.
 
 
@@ -55,41 +42,38 @@ There are significant penalties for non\-compliance:
 
 * Up to INR 10,000 (approximately
  USD 120\): Breach in observance of data principal
-* Up to INR 200 Crore
- (approximately USD 24 million): Breach in not giving notice of personal
+* Up to INR 200 Crore  (approximately USD 24 million): Breach in not giving notice of personal
  data breach
-* Up to INR 200 Crore: Breach in
- observance of additional obligation in relation to children
-* Up to INR 250 Crore
- (approximately USD 30 million): Non\-compliance of the provisions by data
- fiduciaries
+* Up to INR 200 Crore: Breach in  observance of additional obligation in relation to children
+* Up to INR 250 Crore  (approximately USD 30 million): Non\-compliance of the provisions by data  fiduciaries
 
 
-The key takeaway is this: any company operating in India needs to be aware that the new law spells
-out requirements on cross\-border data transfers and establishes significant penalties for organizations that breach those requirements. Other jurisdictions,
-including the United States, are establishing their own requirements and penalties. If you're processing data in the world's largest economies, you need
-to follow these regulations.
+The key takeaway is this: any company operating in India needs to be aware that the new law spells out requirements on cross\-border data transfers and establishes significant penalties for organizations that breach those requirements. Other jurisdictions, including the United States, are establishing their own requirements and penalties. If you're processing data in the world's largest economies, you need to follow these regulations.
 
 
 ## Security and watsonx on IBM Cloud
 
 
-So, you know your organization has to take security extremely seriously. Not only is your
-company's reputation at stake if you have a security breach, but you face the possibility of significant fines of you don't take steps to protect your
-customers. But who can you trust with your data? Who has the established procedures, sites, and infrastructure to protect you and your customers?
+So, you know your organization has to take security extremely seriously. Not only is your company's reputation at stake if you have a security breach, but you face the possibility of significant fines of you don't take steps to protect your customers. But who can you trust with your data? Who has the established procedures, sites, and infrastructure to protect you and your customers?
 
 
-The answer to that question is IBM. With its long history of data expertise and protection, IBM
-now applies its multi\-level security protocols to AI data and processes.
+The answer to that question is IBM. With its long history of data expertise and protection, IBM now applies its multi\-level security protocols to AI data and processes.
+
+Watsonx is IBM's Data & AI platform for business. It is made up of three main pillars: watsonx.ai, watsonx.data, and watsonx.governance.
 
 Following are just some of the security measures that IBM Cloud data centers provide for watsonx services. As you'll see, IBM's generative AI solution on IBM Cloud puts security at the heart of every feature and function.
+
+### Additional Information of IBM Cloud multi-level security for watsonx (from diagram)
+
+- watsonx on IBM Cloud is deployed on a multizone region
+- There are 3 zones that the watsonx on IBM Cloud service uses for High availability
+- watsonx on IBM Cloud leverages (or uses) the following IBM Cloud services: IBM Activity Tracker, IBM Cloud Monitoring Object Storage, IBM Kubernetes, IBM Service Message Hub, IBM Cloud Registry, IBM Cloud DB and IBM IAM
 
 
 ## Secure data sites
 
 
-The watsonx infrastructure resides on the IBM Cloud platform, which has undergone independent audits for compliance with [SSAE16](https://ssae-16.com/?utm_source=ibm_developer&utm_content=in_content_link&utm_id=articles_awb-data-privacy-security-watsonx-workloads-ibm-cloud) Type II SOC 1, 2, and 3 standards, as
-outlined by the American Institute of Certified Public Accountants. Physical security of IBM property employs a multi\-layered approach encompassing site,building, data center, and data center partitions. Employee access to systems hosting watsonx on IBM Cloud is restricted based on job requirements. Building security is tiered according to security categorization, employing measures such as:
+The watsonx infrastructure resides on the IBM Cloud platform, which has undergone independent audits for compliance with [SSAE16](https://ssae-16.com/?utm_source=ibm_developer&utm_content=in_content_link&utm_id=articles_awb-data-privacy-security-watsonx-workloads-ibm-cloud) Type II SOC 1, 2, and 3 standards, as outlined by the American Institute of Certified Public Accountants. Physical security of IBM property employs a multi\-layered approach encompassing site,building, data center, and data center partitions. Employee access to systems hosting watsonx on IBM Cloud is restricted based on job requirements. Building security is tiered according to security categorization, employing measures such as:
 
 
 * Gates
@@ -107,16 +91,17 @@ Notably, data centers lack first\-floor windows, and emergency doors are equippe
 ## Geography
 
 
-Watsonx on IBM Cloud is available in secure facilities in Dallas and Frankfurt, and the service requires a cloud object storage instance where the data is stored. Watsonx services uses a highly available infrastructure that uses multi\-zone regions.
+Watsonx on IBM Cloud is available in secure facilities or sites or data centers in Dallas and Frankfurt, and the service requires a cloud object storage instance where the data is stored. Watsonx services uses a highly available infrastructure that uses multi\-zone regions to prevent data loss.
 Each service is deployed in three data centers in a region. Any data that is needed for use within the service is replicated between each data center to provide high availability.
 
 
 ## Zero retention
 
 
-Watsonx services are stateless in nature on IBM Cloud, which means that even though the data is
-processed, it is not stored by the services. The data is used only until the transaction is completed. Once the transaction is over, the data is not retained by watsonx services.
+Watsonx services are stateless in nature on IBM Cloud, which means that even though the data is processed, it is not stored by the services. The data is used only until the transaction is completed. Once the transaction is over, the data is not retained by watsonx services.
 
+### Additional Information for Zero Retention
+For isolated services, which provides single-tenant storage with unique encryption key, the destruction of the encryption key will render the data unretrievable, and this is compliant with NIST Guidelines. The destruction method includes clearing, purging and destroy the data which renders the data inaccessible and cannot be recovered.
 
 ## Cryptography
 
@@ -127,8 +112,7 @@ IBM employs the latest technically feasible cryptography technologies, such as T
 ## Defense in depth
 
 
-Watsonx uses the *defense in depth* concept throughout its security stack to ensure visibility and control. Within the network security stack,
-there are multiple layers of security controls:
+Watsonx uses the *defense in depth* concept throughout its security stack to ensure visibility and control. Within the network security stack, there are multiple layers of security controls:
 
 
 * Inspection
@@ -150,18 +134,27 @@ Watsonx services employ artificial intelligence for cybersecurity and leverage t
 
 IBM ensures real\-time monitoring of activities, both internally and externally, through the use of firewalls, servers, and application APIs. This comprehensive monitoring solution enables the security team to swiftly address potential security breaches or incidents.
 
+For detecting security breaches in watsonx on IBM Cloud uses IBM Activity Tracker, LogDNA and IAM to detect all the changes that are done in the service. 
+
+Additionally, regarding breaches, IBM will maintain and follow documented incident response policies consistent with National Institute of Standards and Technology, United States Department of Commerce (NIST) guidelines or equivalent industry standards for computer security incident handling and will comply with the data breach notification terms of the applicable written contract between IBM and Client.
+IBM will investigate Security Incidents of which IBM becomes aware, and, within the scope of the IBM Services, IBM will define and execute an appropriate response plan. Client may notify IBM of a suspected vulnerability or incident by submitting a request through the incident reporting process specific to the IBM Service (as referenced in an IBM Services Document) or, in the absence of such process, by submitting a technical support request.
+IBM will notify Client without undue delay upon confirmation of a Security Incident that is known or reasonably suspected by IBM to affect Client. IBM will provide Client with reasonably requested information about such Security Incident and the status of any IBM remediation and restoration activities.
+
+## IBM Security Vulnerability Management
+### Comprehensively addressing security vulnerabilities in IBM products and websites.
+IBM PSIRT is the centralized process through which IBM customers, security researchers, industry groups, government organizations, or vendors report potential IBM security vulnerabilities. IBM is committed to responding to new threats and risks. IBM’s Secure Engineering practices were designed so that IBM can act in a timely fashion to a reported security vulnerability affecting an IBM product or solution. To help protect our customers, IBM does not publicly disclose or confirm security vulnerabilities until IBM has conducted an analysis of the product and issued fixes and/or mitigations.
+
+A global team manages the receipt, investigation and internal coordination of security vulnerability information related to all IBM products and websites. This team then coordinates with each individual IBM product and solution team across the world to investigate, and if needed, identify the appropriate response plan. Maintaining communication between all involved parties, both internal and external, is a key component of IBM’s vulnerability response process.
+
+The IBM PSIRT process is based on the FIRST framework and follows its four steps: Discovery, Triage, Remediation, Disclosure.
 
 ## Compliance
 
-
 Watsonx instantiation on IBM Cloud involves two services: Watson Studio and Watson Machine Learning. In the landscape of AI use cases, customers utilize various data types. Within the cloud paradigm, data often spans international borders when services are available in different countries. Considering the compliance laws, here are a few categories of data that can be used with watsonx services on IBM Cloud without violating any compliance rules.
-
 
 ## Personal data types
 
-
 The following personal data types are or can be processed as content:
-
 
 * **Basic personal  information** about the identity of an
  individual, such as name, address, phone number, email
@@ -215,8 +208,7 @@ You control whether prompts, model choices, and prompt engineering parameter set
 When saved, your data is stored in a dedicated IBM Cloud Object Storage bucket that is associated with your project.
 
 
-Data that is stored in your project storage bucket is encrypted at rest and in motion. You can delete
-your stored data at any time.
+Data that is stored in your project storage bucket is encrypted at rest and in motion. You can delete your stored data at any time. Data is encrypted at rest using AES-256 and in motion using TLS 1.2 or TLS 1.3.
 
 
 if !vml![IBM watsonx data security](secure.fld/image002.png)endif *Figure 2: IBM watsonx data security*
@@ -240,7 +232,6 @@ if !vml![watsonx network security](secure.fld/image003.png)endif *Figure 3: IBM 
 
 Watsonx services and other services on IBM Cloud are hosted in the same data centers, preventing any performance issues such as latency. Watsonx services use IBM Cloud Object Storage to store the data and metadata. If secure connections are enabled, this communication can be changed to the customer’s preferred network. Private network endpoints can be configured by enabling secure connections, which will let watsonx services communicate over a private network on IBM Cloud data centers.
 
-
 If the data is behind a firewall and within enterprise networks, watsonx services can access it in two ways:
 
 
@@ -251,12 +242,12 @@ If the data is behind a firewall and within enterprise networks, watsonx service
 
 ## Resiliency
 
-
 IBM watsonx has built\-in disaster\-resistant features, meaning your data is protected when the unforeseen occurs:
 
 * The metadata of your projects and
  catalogs is stored in a three\-node dedicated Cloudant Enterprise cluster  that spans multiple geographic locations.
 * The files that are associated  with projects and catalogs are protected by the level of resiliency that  is specified by the IBM Cloud Object Storage plan.
+
 
 
 ## Summary
@@ -269,3 +260,10 @@ Every solution provider that manages data and includes AI models must make a com
 
 
 IBM knows how to do security. IBM watsonx has multi\-level security built in, and watsonx on IBM Cloud gives your company the ability to meet security requirements, protect customers, and ensure compliance at every stage of your business. That expertise and commitment to security will give you — and more importantly, your customers — peace of mind.
+
+
+ 
+
+
+
+
